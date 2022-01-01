@@ -2,8 +2,12 @@ package com.test;
 
 public class Instagram {
 
-	public static void userName() {
-		System.out.println("username");
+	public static void Username() {
+		System.out.println("password");
+	}
+	
+	public static void firstName() {
+		System.out.println("firstName");
 	}
 	
 	public static void lastName() {
@@ -11,7 +15,10 @@ public class Instagram {
 	}
 	
 	public static void main(String[] args) {
-		userName();
+
+		Username();
 		lastName();
+		firstName();
+
 	}
 }
