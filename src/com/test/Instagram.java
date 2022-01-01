@@ -10,8 +10,15 @@ public class Instagram {
 		System.out.println("firstName");
 	}
 	
+	public static void lastName() {
+		System.out.println("lastName");
+	}
+	
 	public static void main(String[] args) {
+
 		Username();
+		lastName();
 		firstName();
+
 	}
 }
